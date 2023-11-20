@@ -9,7 +9,7 @@ workbook = openpyxl.Workbook()
 sheet = workbook.active
 sheet.title = '정선군 명소정보'
 
-# 딕셔너리 자료형 키 값을 헤더 값으로 설정
+# 헤더 값으로 설정
 sheet.append(['명소명', '분류', '주소', '연락처', '홈페이지', '휴무일', '이용시간', '입장료', '시설사용요금', '소개', '여행가이드'])
 
 def crawling(url):
